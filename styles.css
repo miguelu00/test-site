@@ -1,0 +1,50 @@
+body {
+    background-image: url("imgs/1663982108210296.gif");
+    background-repeat: repeat;
+}
+
+.sq-small {
+    padding: 10px;
+    width: 20vw;
+    height: 10vw;
+    border: 1px solid;
+    border-radius: 25%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: gray;
+}
+
+.txt-highlighted > span {
+    background-color: yellowgreen;
+    line-height: 1;
+    box-shadow: 10px 0 0px 0px #EDC330, -10px 0 0px 0px #EDC330;
+    text-decoration-color: aqua;
+}
+
+.middle-center {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.movable {
+    position: absolute;
+    cursor: grab;
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+}
+
+.blur {
+    backdrop-filter: blur(3px);
+}
